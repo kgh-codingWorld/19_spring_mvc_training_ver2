@@ -1,0 +1,73 @@
+2024-08-21 15:22:15.580 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.application.aop.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-21 15:22:15.699 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.application.aop.Application for test class com.application.aop.LoggerTest
+2024-08-21 15:22:15.853 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2024-08-21 15:22:16.048 [main] INFO  com.application.aop.LoggerTest - Starting LoggerTest using Java 17.0.11 with PID 2976 (started by 15_web_kgh in C:\Users\15_web_kgh\eclipse-workspace\16_spring_aop)
+2024-08-21 15:22:16.049 [main] INFO  com.application.aop.LoggerTest - No active profile set, falling back to 1 default profile: "default"
+2024-08-21 15:22:17.519 [main] INFO  com.application.aop.LoggerTest - Started LoggerTest in 1.669 seconds (process running for 2.999)
+2024-08-21 15:22:18.651 [main] INFO  c.a.a.chapter02_logger.LoggerAdvice - testMethod1 메서드 동작시간 : 0.114초
+2024-08-21 15:22:18.651 [main] WARN  c.a.a.chapter02_logger.LoggerAdvice - testMethod1 메서드 동작시간 : 0.114초
+2024-08-21 15:22:18.651 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod1 메서드 동작시간 : 0.114초
+2024-08-21 15:22:18.852 [main] INFO  c.a.a.chapter02_logger.LoggerAdvice - testMethod2 메서드 동작시간 : 0.2초
+2024-08-21 15:22:18.852 [main] WARN  c.a.a.chapter02_logger.LoggerAdvice - testMethod2 메서드 동작시간 : 0.2초
+2024-08-21 15:22:18.852 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod2 메서드 동작시간 : 0.2초
+2024-08-21 15:22:19.163 [main] INFO  c.a.a.chapter02_logger.LoggerAdvice - testMethod3 메서드 동작시간 : 0.311초
+2024-08-21 15:22:19.164 [main] WARN  c.a.a.chapter02_logger.LoggerAdvice - testMethod3 메서드 동작시간 : 0.311초
+2024-08-21 15:22:19.164 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod3 메서드 동작시간 : 0.311초
+2024-08-21 15:22:19.566 [main] INFO  c.a.a.chapter02_logger.LoggerAdvice - testMethod4 메서드 동작시간 : 0.401초
+2024-08-21 15:22:19.567 [main] WARN  c.a.a.chapter02_logger.LoggerAdvice - testMethod4 메서드 동작시간 : 0.401초
+2024-08-21 15:22:19.567 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod4 메서드 동작시간 : 0.401초
+2024-08-21 15:22:20.082 [main] INFO  c.a.a.chapter02_logger.LoggerAdvice - testMethod5 메서드 동작시간 : 0.514초
+2024-08-21 15:22:20.083 [main] WARN  c.a.a.chapter02_logger.LoggerAdvice - testMethod5 메서드 동작시간 : 0.514초
+2024-08-21 15:22:20.083 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod5 메서드 동작시간 : 0.514초
+여기는파일임 - Could not detect default configuration classes for test class [com.application.aop.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+여기는파일임 - Found @SpringBootConfiguration com.application.aop.Application for test class com.application.aop.LoggerTest
+여기는파일임 - Restart disabled due to context in which it is running
+여기는파일임 - Starting LoggerTest using Java 17.0.11 with PID 16360 (started by 15_web_kgh in C:\Users\15_web_kgh\eclipse-workspace\16_spring_aop)
+여기는파일임 - No active profile set, falling back to 1 default profile: "default"
+여기는파일임 - Started LoggerTest in 1.751 seconds (process running for 2.781)
+여기는파일임 - testMethod1 메서드 동작시간 : 0.101초
+여기는파일임 - testMethod1 메서드 동작시간 : 0.101초
+여기는파일임 - testMethod1 메서드 동작시간 : 0.101초
+여기는파일임 - testMethod2 메서드 동작시간 : 0.215초
+여기는파일임 - testMethod2 메서드 동작시간 : 0.215초
+여기는파일임 - testMethod2 메서드 동작시간 : 0.215초
+여기는파일임 - testMethod3 메서드 동작시간 : 0.308초
+여기는파일임 - testMethod3 메서드 동작시간 : 0.308초
+여기는파일임 - testMethod3 메서드 동작시간 : 0.308초
+여기는파일임 - testMethod4 메서드 동작시간 : 0.415초
+여기는파일임 - testMethod4 메서드 동작시간 : 0.415초
+여기는파일임 - testMethod4 메서드 동작시간 : 0.415초
+여기는파일임 - testMethod5 메서드 동작시간 : 0.51초
+여기는파일임 - testMethod5 메서드 동작시간 : 0.51초
+여기는파일임 - testMethod5 메서드 동작시간 : 0.51초
+2024-08-21 15:31:55.998 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.application.aop.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-21 15:31:56.095 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.application.aop.Application for test class com.application.aop.LoggerTest
+2024-08-21 15:31:56.254 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2024-08-21 15:31:59.001 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod1 메서드 동작시간 : 0.104초
+2024-08-21 15:31:59.213 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod2 메서드 동작시간 : 0.21초
+2024-08-21 15:31:59.523 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod3 메서드 동작시간 : 0.309초
+2024-08-21 15:31:59.937 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod4 메서드 동작시간 : 0.413초
+2024-08-21 15:32:00.448 [main] ERROR c.a.a.chapter02_logger.LoggerAdvice - testMethod5 메서드 동작시간 : 0.51초
+2024-08-21 17:12:43.422 [main] INFO  jdbc.sqlonly - SELECT	*
+		FROM	BRAND
+
+2024-08-21 17:12:43.470 [main] INFO  jdbc.sqlonly - SELECT	*
+		FROM	BRAND
+		WHERE	BRAND_ID = 1
+
+2024-08-21 17:12:43.479 [main] INFO  jdbc.sqlonly - INSERT INTO 
+				BRAND
+		VALUES (
+			100,
+			'추가된브랜드',
+			NOW(),
+			'Y'
+		);
+
+2024-08-21 17:12:43.491 [main] INFO  jdbc.sqlonly - UPDATE	BRAND
+		SET		BRAND_NM = '추가된브랜드1'
+		WHERE	BRAND_ID = 100
+
+2024-08-21 17:12:43.500 [main] INFO  jdbc.sqlonly - DELETE FROM BRAND
+		WHERE		BRAND_ID = 100
+
