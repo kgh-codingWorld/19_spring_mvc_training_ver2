@@ -1,0 +1,6 @@
+2024-09-03 16:14:33.478 [http-nio-80-exec-1] INFO  jdbc.sqlonly - SELECT	*
+		FROM	PRODUCT
+
+2024-09-03 16:22:15.732 [http-nio-80-exec-2] INFO  jdbc.sqlonly - SELECT	*
+		FROM	BRAND
+
